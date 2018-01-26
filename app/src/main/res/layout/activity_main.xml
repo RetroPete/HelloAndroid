@@ -1,4 +1,6 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="sans-serif-light"
-        android:text="Udacity"
+        android:text="@string/udacity"
         android:textColor="@android:color/black"
         android:textSize="24sp" />
 
@@ -31,7 +33,7 @@
         android:textSize="20sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/black"
-        android:text="2465 Latham St, Mountain View" />
+        android:text="@string/address" />
 
     <TextView
         android:id="@+id/state"
@@ -42,7 +44,7 @@
         android:textSize="20sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/black"
-        android:text="CA 94043" />
+        android:text="@string/postcode" />
 
     <TextView
         android:id="@+id/web"
@@ -54,7 +56,7 @@
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/black"
         android:layout_margin="20dp"
-        android:text="www.udacity.com" />
+        android:text="@string/web" />
 
     <TextView
         android:id="@+id/number"
@@ -65,7 +67,7 @@
         android:textSize="20sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/black"
-        android:text="Tel: 650-555-5555" />
+        android:text="@string/telephone" />
 
     <ImageButton
         android:id="@+id/share"
